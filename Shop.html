@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            background: rgb(209, 202, 193);
+        }
+        .container{
+            width: 80%;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: auto;
+            flex-wrap: wrap;
+            
+           
+           
+        }
+        h1{
+            text-align: center;
+            color: rgb(220, 72, 72);
+        }
+        .card{
+            width: 310px;
+            height: 510px; 
+            background-color: aliceblue;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 5px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 1px solid gray;
+            
+            
+            
+        }
+        .card img{
+            width: 87%;
+            height: 200px;
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(25, 25, 78);
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px;
+        }
+        .img:hover{
+            transform: translateY(-20px) ;
+        }
+        h2{
+            color: brown;
+            
+        }
+        button{
+            background-color: rgb(19, 214, 32);
+            border: none;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0px 0px 2px;
+            transition: 0.3s;
+
+        }
+        .container2{
+            text-align: center;
+            font-size: 35px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: blue;
+        }
+        .text-border{
+            width:60%;
+            text-align: center;
+            border: 3px solid rgb(76, 70, 70);
+            padding: 10px;
+            display: inline-block;
+            
+        }
+        .blue{
+            color: blue;
+            font-size: 20px;
+            padding: 20px;
+        }
+        .name{
+            height: 40px;
+        }
+        hr{
+            margin-top: auto;
+        }
+        .menu{
+           
+            padding: 10px;
+            text-align:50px;
+            width:30%;
+            border-radius: 10px;
+        }
+        .menu a{
+            border: 1px solid rgb(42, 42, 154);
+            padding: 10px 20px;
+            display: inline-block;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: navy;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: 0.8s;
+
+
+        }
+        .menu a:hover{
+            transform: translateY(-20px);
+            background-color: rgb(169, 13, 13);
+            color: rgb(192, 209, 41);
+        }
+        button:hover{
+            background-color: rgb(173, 21, 21);
+            color: rgb(34, 8, 163);
+            transform: translateY(-3px);
+        }
+        .title{
+            animation: colorchange 6s infinite;
+        }
+        @keyframes colorchange{
+            0%{color: blue;}
+            25%{color: aquamarine;}
+            50%{color: blueviolet;}
+            75%{color: black;}
+            100%{color: rgb(173, 17, 17);}
+        }
+        .border-premium-neon{
+            display: inline-block;
+            padding: 20px 24px;
+            border-radius: 12px;
+            width: 50%;
+            margin: 20px;
+
+            border: 2px solid rgb(166, 221, 13);
+            color: rgb(47, 8, 221);
+            background: rgb(17, 17, 27);
+            box-shadow: 
+            0 0 8px black,
+            0 0 20px rgb(52, 44, 34);
+            font-weight: bold;
+        }
+       
+    </style>
+</head>
+
+<body>
+    
+    <div class="container2">
+    <div class="border-premium-neon">
+        Shoping
+    </div>
+     </div>
+     <div>
+       <nav class="menu">
+        <a href="fomr/quiz2.html">Fome</a>
+        <a href="fomr/food.html">Food Buy</a>
+        <a href="">Page</a>
+       </nav>
+    
+     <hr>
+    <div class="container">
+    <div class="card">
+       <img src="img/photo_2026-06-12_22-54-54.jpg">
+       <h1 class="title">PERFUMR</h1>
+       <p><h3 class="name">Dior SAUVADE Elixir</h3></p>
+       <p>
+        <del>$500.00</del>
+        <mark>$300.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+       <hr>
+       <a href="https://share.icloud.com/photos/09ciYLJeVR0MqyeNhjs4tBopA">More ----</a>
+    
+    </div>
+     <div class="card">
+       <img src="img/photo_2026-06-12_22-55-08.jpg">
+       <h1 class="title">PERFUMR</h1>
+       <p><h3 class="name">Blue Chanel</h3></p>
+       <p>
+        <del>$400.00</del>
+        <mark>$300.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+       <hr>
+       <a href="">More</a>
+    </div>
+     <div class="card">
+       <img src="img/photo_2026-06-14_21-53-30.jpg">
+       <h1 class="title">PERFUMR</h1>
+       <p><h3 class="name">CoCo Chanel</h3></p>
+       <p>
+        <del>$300.00</del>
+        <mark>$250.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+        <hr>
+       <a href="">More</a>
+    </div>
+     <div class="card">
+       <img src="img/photo_2026-06-14_21-53-24.jpg">
+       <h2 class="title">PERFUMR</h2>
+       <p><h3 class="name">Asad</h3></p>
+       <p>
+        <del>$300.00</del>
+        <mark></mark>$270.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+        <hr>
+       <a href="">More</a>
+    </div>
+     <div class="card">
+       <img src="img/photo_2026-06-12_22-55-14.jpg">
+       <h2 class="title">PERFUMR</h2>
+       <p><h3 class="name">Jean Paul Gauitier</h3></p>
+       <p>
+        <del>$600.00</del>
+        <mark>$450.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+        <hr>
+       <a href="">More</a>
+    </div>
+     <div class="card">
+        <img src="img/photo_2026-06-12_22-52-52.jpg">
+       <h2 class="title">PERFUMR</h2>
+       <p><h3 class="name">Versace Eros Eau</h3></p>
+       <p>
+        <del>$500.00</del>
+        <mark>$400.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+        <hr>
+       <a href="">More</a>
+    </div>
+     <div class="card">
+        <img src="img/photo_2026-06-14_21-53-15.jpg">
+       <h2 class="title">PERFUMR</h2>
+       <p><h3 class="name">Stonger With You</h3></p>
+       <p>
+        <del>$400.00</del>
+        <mark>$300.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+        <hr>
+       <a href="">More</a>
+    </div>
+     <div class="card">
+        <img src="img/photo_2026-06-14_21-55-11.jpg">
+       <h2 class="title">PERFUMR</h2>
+       <p><h3 class="name">Creed Aventus</h3></p>
+       <p>
+        <del>$300.00</del>
+        <mark>$200.00</mark>
+       </p>
+       <button>
+        Buy now
+       </button>
+        <hr>
+       <a href="">More</a>
+    </div>
+    </div>
+</body>
+</html>
